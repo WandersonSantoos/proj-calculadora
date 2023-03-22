@@ -13,7 +13,7 @@ h1 {
 }
 
 .fundo {
-    background-image: linear-gradient(45deg, black, rgb(20, 130, 220));
+    background-color: #0d1117;
     height: 100vh;
     color: white;
     text-align: center;
@@ -21,7 +21,7 @@ h1 {
 
 .calculadora {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #010409;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -36,6 +36,7 @@ h1 {
     font-size: 25px;
     cursor: pointer;
     margin: 3px;
+    border-radius: .3rem;
     background-color: rgb(31, 31, 31);
     border: none;
     color: white;
@@ -49,6 +50,7 @@ h1 {
     width: 224px;
     height: 30px;
     margin: 5px;
+    border-radius: .3rem;
     font-size: 19px;
     text-align: right;
     padding: 5px;
